@@ -126,6 +126,13 @@ router.route('/about')
     .post(function(req, res, next) {
 
     });
+router.route('/email')
+    .get(function(req, res, next) {
+        res.render('email', {})
+    })
+    .post(function(req, res, next) {
+
+    });
 
 
 router.route('/redirect')
