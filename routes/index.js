@@ -21,24 +21,115 @@ var upload = multer({ dest: 'public/upload/' });
 
 router.route('/')
     .get(function(req, res, next) {
-        res.render('index', { 
-        })
+        res.render('index', {})
     })
     .post(function(req, res, next) {
 
     });
 
+
+router.route('/behaviour')
+    .get(function(req, res, next) {
+        res.render('behaviour', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+router.route('/habitat')
+    .get(function(req, res, next) {
+        res.render('habitat', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+router.route('/classification')
+    .get(function(req, res, next) {
+        res.render('classification', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+router.route('/gallery')
+    .get(function(req, res, next) {
+        res.render('gallery', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+
+router.route('/mating')
+    .get(function(req, res, next) {
+        res.render('mating', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+
+router.route('/diet')
+    .get(function(req, res, next) {
+        res.render('portofolio', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+
+router.route('/communication')
+    .get(function(req, res, next) {
+        res.render('communication', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+
+router.route('/fact')
+    .get(function(req, res, next) {
+        res.render('fact', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+
+router.route('/anatomy')
+    .get(function(req, res, next) {
+        res.render('anatomy', {})
+    })
+    .post(function(req, res, next) {
+
+    });
+
+
+router.route('/culture')
+    .get(function(req, res, next) {
+        res.render('culture', {})
+    })
+    .post(function(req, res, next) {
+
+    });
 
 router.route('/about')
     .get(function(req, res, next) {
-        res.render('about', { 
-        })
+        res.render('about', {})
     })
     .post(function(req, res, next) {
 
     });
 
 
+router.route('/contact')
+    .get(function(req, res, next) {
+        res.render('contact', {})
+    })
+    .post(function(req, res, next) {
+
+    });
 
 
 
