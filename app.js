@@ -1,5 +1,5 @@
 var express = require('express');
-var PORT = 3000;
+var PORT = 7000;
 var hbs = require('express-handlebars');
 var path = require('path');
 var favicon = require('serve-favicon'); 
