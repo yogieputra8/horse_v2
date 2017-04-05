@@ -123,9 +123,9 @@ router.route('/about')
     });
 
 
-router.route('/contact')
+router.route('/email')
     .get(function(req, res, next) {
-        res.render('contact', {})
+        res.render('email', {})
     })
     .post(function(req, res, next) {
 
